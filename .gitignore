@@ -1,0 +1,23 @@
+# data
+datasets/
+data/
+
+# outputs / logs
+outputs/
+output/
+logs/
+runs/
+wandb/
+
+# numpy / torch large artifacts
+*.npz
+*.npy
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+
+# python cache
+__pycache__/
+*.pyc
