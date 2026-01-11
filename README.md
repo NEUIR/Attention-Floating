@@ -14,7 +14,7 @@ If you find this work useful, please cite our paper and give us a shining star ð
 
 **Attention floating** is a mechanistic perspective on how masked diffusion models (MDMs) allocate attention under iterative denoising with bidirectional visibility. Unlike autoregressive models, where attention often collapses into a rigid early-token sink that can bias information flow and exacerbate lost-in-the-middle behavior, MDMs exhibit distributed attention anchors that drift across layers and denoising steps. We further show a Shallow Structure-Aware, Deep Content-Focused pattern: shallow layers rely on structurally salient floating tokens to scaffold global organization, while deeper layers increasingly shift capacity toward semantically informative content, yielding stronger context tracking and large gains on knowledge-intensive tasks.
 
-<img src="figs/intro.png" >
+<img src="figs/intro.png" width="90%">
 
 ## ðŸŽ‰ News
 
