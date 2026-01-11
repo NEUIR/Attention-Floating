@@ -129,8 +129,29 @@ We pool token-level attention into coarse regions (BOS / Query / Docs / Answer) 
 ```bash
 python visualization/attention_rollout.py
 ```
-<img src="figs/attention_flow.png" width="80%">
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="figs/llada-gold_at_0.png" width="420"/><br/>
+      (a) LLaDA, Gold Doc at 1.
+    </td>
+    <td align="center">
+      <img src="figs/llada-gold_at_4.png" width="420"/><br/>
+      (b) LLaDA, Gold Doc at 5.
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="figs/llada-gold_at_9.png" width="420"/><br/>
+      (c) LLaDA, Gold Doc at 10.
+    </td>
+    <td align="center">
+      <img src="figs/llama.png" width="420"/><br/>
+      (d) LLaMA, Gold Doc at 1/5/10.
+    </td>
+  </tr>
+</table>
 
 ## Contact
 If you have questions, suggestions, and bug reports, please email:
