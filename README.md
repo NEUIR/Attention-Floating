@@ -1,13 +1,21 @@
 # Revealing the Attention Floating Mechanism in Masked Diffusion Models
 
 
-Click the links below to view our papers, checkpoints:
+Click the links below to view our paper:
 
-<a href='https://arxiv.org/abs/2508.12281'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a><a href='https://huggingface.co/Xubqpanda/LegalDelta'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Checkpoint-blue'></a>
+<a href='https://arxiv.org/abs/2601.07894'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 If you find this work useful, please cite our paper and give us a shining star 🌟
 ```
-
+@misc{dai2026revealingattentionfloatingmechanism,
+      title={Revealing the Attention Floating Mechanism in Masked Diffusion Models}, 
+      author={Xin Dai and Pengcheng Huang and Zhenghao Liu and Shuo Wang and Yukun Yan and Chaojun Xiao and Yu Gu and Ge Yu and Maosong Sun},
+      year={2026},
+      eprint={2601.07894},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2601.07894}, 
+}
 ```
 
 # 📖 Introduction
@@ -18,7 +26,7 @@ If you find this work useful, please cite our paper and give us a shining star �
 
 ## 🎉 News
 
-- 20260119: Released our Paper on [arXiv](https://arxiv.org/abs/2508.13021). Released our Code on [GitHub](https://github.com/NEUIR/Attention_Floating). 
+- 20260114: Released our Paper on [arXiv](https://arxiv.org/abs/2601.07894). Released our Code on [GitHub](https://github.com/NEUIR/Attention_Floating). 
 
 
 # ⚙️ Setup
@@ -33,7 +41,7 @@ pip install -r requirement.txt
 
 # Attention Floating in Masked Diffusion Models (MDMs)
 
-We first conduct comprehensive study on MDMs, including Llada and Dream. We provide (i) analysis/visualization scripts for attention absorption, temporal drift, QK decomposition, retrieval head analysis and region-level attention flow, and (ii) evaluation scripts for knowledge-intensive QA with/without RAG.
+We first conduct a comprehensive study on MDMs, including Llada and Dream. We provide (i) analysis/visualization scripts for attention absorption, temporal drift, QK decomposition, retrieval head analysis and region-level attention flow, and (ii) evaluation scripts for knowledge-intensive QA with/without RAG.
 
 ## 1) Temporal Drift Visualization (Per-step Floating)
 Create temporal heatmaps over denoising steps (MDMs) from step_attention_data:
